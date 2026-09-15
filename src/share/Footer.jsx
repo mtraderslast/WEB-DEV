@@ -22,7 +22,7 @@ function Footer() {
 
     const whatsappUrl = "https://wa.me/13163617579";
     const telegramUrl = "https://t.me/Mtradersla_bot";
-    const emailAddress = "hello@mtraderslastllc.com";
+    const emailAddress = "mtraderslastltd.com";
 
     return (
         <footer className="w-full relative overflow-hidden transition-colors duration-500 bg-[#EDE8F5] dark:bg-black border-t border-[#3D52A0]/15 dark:border-slate-900 text-slate-700 dark:text-slate-400">
