@@ -210,8 +210,10 @@ function Footer() {
 
                         {/* LLC Documentation info box */}
                         <div className="mt-5 p-3.5 rounded-xl bg-white/60 dark:bg-slate-950 border border-[#3D52A0]/20 dark:border-slate-800 text-xs text-slate-600 dark:text-slate-500 space-y-1">
-                            <p className="font-semibold text-[#3D52A0] dark:text-slate-200">Florida LLC · Doc# L26000290590</p>
-                            <p className="text-slate-600 dark:text-slate-500">7901 4th St N Suite 6573, St. Petersburg FL 33702</p>
+                            <p className="text-slate-600 dark:text-slate-500">Office 1317, 85 Dunstall Hill
+Wolverhampton
+WV6 0SR
+United Kingdom</p>
                         </div>
                     </div>
 
@@ -219,7 +221,7 @@ function Footer() {
 
                 {/* Bottom Section: Legal Links & Copyright */}
                 <div className="pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-slate-600 dark:text-slate-400">
-                    <p>© {currentYear} M Traders Last LLC. All rights reserved.</p>
+                    <p>© {currentYear} M TRADERS LAST LTD. All rights reserved.</p>
 
                     {/* Important Business Links */}
                     <div className="flex flex-wrap justify-center gap-x-6 gap-y-2">
