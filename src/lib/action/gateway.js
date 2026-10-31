@@ -5,13 +5,19 @@ const API_URL = `${process.env.NEXT_PUBLIC_BACKEND_URL}/api/gateways`;
 
 export const fetchGateways = () => {
     return apiHandler(() =>
-        axios.get(`${API_URL}`, { withCredentials: true })
+        axios.get(API_URL, { withCredentials: true })
+    );
+};
+
+export const fetchGatewayProviders = () => {
+    return apiHandler(() =>
+        axios.get(`${API_URL}/providers`, { withCredentials: true })
     );
 };
 
 export const createGateway = (data) => {
     return apiHandler(() =>
-        axios.post(`${API_URL}`, data, { withCredentials: true })
+        axios.post(API_URL, data, { withCredentials: true })
     );
 };
 

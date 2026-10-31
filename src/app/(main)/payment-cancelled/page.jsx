@@ -16,17 +16,27 @@ export default function PaymentCancelledPage() {
                     <XCircle size={40} />
                 </div>
 
-                <h1 className="text-3xl md:text-4xl font-extrabold mb-4 text-gray-900 dark:text-white">Payment Cancelled</h1>
+                <h1 className="text-3xl md:text-4xl font-extrabold mb-4 text-gray-900 dark:text-white">Payment cancelled</h1>
                 <p className="text-gray-600 dark:text-gray-400 mb-8 leading-relaxed">
-                    Your payment process was cancelled or interrupted. No charges were made to your account.
+                    The payment was cancelled or did not complete. No charge was made. You can return to pricing and try again.
                 </p>
 
-                <button
-                    onClick={() => router.push('/')}
-                    className="w-full py-4 rounded-xl font-bold text-lg bg-gray-200 hover:bg-gray-300 dark:bg-gray-800 dark:hover:bg-gray-700 text-gray-900 dark:text-white transition-all"
-                >
-                    Return to Homepage
-                </button>
+                <div className="w-full flex flex-col sm:flex-row gap-3">
+                    <button
+                        type="button"
+                        onClick={() => router.push('/pricing')}
+                        className="flex-1 py-4 rounded-xl font-bold text-lg bg-[#3D52A0] hover:bg-[#2d3d7a] text-white transition-all cursor-pointer"
+                    >
+                        Try again
+                    </button>
+                    <button
+                        type="button"
+                        onClick={() => router.push('/')}
+                        className="flex-1 py-4 rounded-xl font-bold text-lg bg-gray-200 hover:bg-gray-300 dark:bg-gray-800 dark:hover:bg-gray-700 text-gray-900 dark:text-white transition-all cursor-pointer"
+                    >
+                        Homepage
+                    </button>
+                </div>
             </div>
         </div>
     );
