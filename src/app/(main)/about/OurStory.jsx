@@ -72,7 +72,7 @@ export default function OurStory() {
                         <div className="absolute -inset-4 bg-gradient-to-r from-[#3D52A0] to-indigo-500 rounded-full blur-2xl opacity-0 group-hover:opacity-20 transition-opacity duration-500 pointer-events-none"></div>
 
                         <div className="relative text-5xl lg:text-7xl font-black text-transparent bg-clip-text bg-gradient-to-br from-[#3D52A0] to-indigo-400 dark:from-indigo-400 dark:to-blue-400 drop-shadow-sm">
-                            12+
+                            5+
                         </div>
                         <div className="relative flex flex-col">
                             <span className="text-lg font-bold text-gray-900 dark:text-white uppercase tracking-widest">Years of</span>
@@ -158,7 +158,7 @@ export default function OurStory() {
                     >
                         <div className="flex items-center space-x-5 group cursor-pointer">
                             <div className="relative w-16 h-16 rounded-full overflow-hidden border-[3px] border-white dark:border-[#09090b] shadow-lg transition-transform duration-500 group-hover:scale-105">
-                                <img src="https://i.ibb.co.com/679hzvrz/linkdin-profile-photo.jpg" alt="CEO" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
+                                <img src="https://i.ibb.co.com/TMkBbMN9/cv-ziaul-img.png" />
                                 <div className="absolute inset-0 border border-black/10 rounded-full"></div>
                             </div>
                             <div>
