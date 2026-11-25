@@ -23,9 +23,9 @@ export default function ContactHero() {
         {
             id: 1,
             label: "Email Support",
-            value: "hello@mtraderslastllc.com",
+            value: "hello@mtraderslastltd.com",
             icon: <Mail className="w-6 h-6" />,
-            href: "mailto:hello@mtraderslastllc.com"
+            href: "mailto:hello@mtraderslastltd.com"
         },
         {
             id: 2,
