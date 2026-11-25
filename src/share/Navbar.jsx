@@ -35,7 +35,7 @@ function Navbar() {
     ];
 
     const whatsappUrl = "https://wa.me/13163617579";
-    const emailAddress = "hello@mtraderslastllc.com";
+    const emailAddress = "hello@mtraderslastltd.com";
 
     const isActive = (path) => pathname === path;
 

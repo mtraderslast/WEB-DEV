@@ -158,11 +158,11 @@ export default function OurStory() {
                     >
                         <div className="flex items-center space-x-5 group cursor-pointer">
                             <div className="relative w-16 h-16 rounded-full overflow-hidden border-[3px] border-white dark:border-[#09090b] shadow-lg transition-transform duration-500 group-hover:scale-105">
-                                <img src="https://i.ibb.co.com/TMkBbMN9/cv-ziaul-img.png" />
+                                <img src="https://res.cloudinary.com/fvilswhd/image/upload/v1795632453/ceo.jpg" />
                                 <div className="absolute inset-0 border border-black/10 rounded-full"></div>
                             </div>
                             <div>
-                                <div className="font-extrabold text-gray-900 dark:text-white text-xl tracking-tight group-hover:text-[#3D52A0] dark:group-hover:text-indigo-400 transition-colors">Ziaul Hoque</div>
+                                <div className="font-extrabold text-gray-900 dark:text-white text-xl tracking-tight group-hover:text-[#3D52A0] dark:group-hover:text-indigo-400 transition-colors">Md Bin Ataur Rahman</div>
                                 <div className="text-sm text-[#3D52A0] dark:text-indigo-500 font-bold uppercase tracking-wider mt-1">Founder & CEO</div>
                             </div>
                         </div>
